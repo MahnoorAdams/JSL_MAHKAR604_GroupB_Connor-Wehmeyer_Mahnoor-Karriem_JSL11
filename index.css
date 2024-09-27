@@ -180,7 +180,7 @@ h4 {
   bottom: 45px;
   border-radius: 0 20px 20px 0;
   background-color: #219C90;
-  display: none;
+  display: block;
   cursor: pointer;
 }
 
@@ -1146,7 +1146,7 @@ input:checked + #label-checkbox-theme:after {
 
   #label-checkbox-theme {
     /* width: 50px; */
-    /* height: 2px; */
+    /* height: 2px; */                                                                            
     right: 16px;
     /* border: 2px solid yellow; */
   }
@@ -1155,8 +1155,8 @@ input:checked + #label-checkbox-theme:after {
     width: 20px;
     height: 20px;
     margin: 0;
-    /* margin-right: 20px; */
-    /* border: 2px solid blue; */
+    /* margin-right: 20px; */                                                                    
+    /* border: 2px solid blue; */                                                    
   }
 
   #icon-light {
